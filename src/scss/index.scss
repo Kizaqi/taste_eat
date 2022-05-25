@@ -1,0 +1,227 @@
+@import "reset";
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Josefin+Sans&display=swap");
+header {
+  background-color: #292e36;
+}
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+  border-bottom: 1px solid #5c6168;
+  &__phone {
+    padding: 20px 57px;
+    border: 2px solid #e1b168;
+    border-radius: 0px;
+    transition: all 0.3s ease;
+    a {
+      color: #fff;
+      transition: all 0.3s ease;
+    }
+    &:hover {
+      background-color: #e1b168;
+      a {
+        color: #292e36;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+  &__reservation {
+    padding: 20px 57px;
+    border: 2px solid #e1b168;
+    background-color: #e1b168;
+    border-radius: 0px;
+    transition: all 0.3s ease;
+    a {
+      color: #292e36;
+      transition: all 0.3s ease;
+    }
+    &:hover {
+      background-color: transparent;
+      transition: all 0.3s ease;
+      a {
+        color: #fff;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+}
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  &__nav {
+    ul {
+      display: flex;
+    }
+    a {
+      display: block;
+      padding: 25px;
+      color: #fff;
+      font-size: 20px;
+      transition: all 0.3s ease;
+      &:hover {
+        color: #e1b168;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    a {
+      display: block;
+      font-size: 24px;
+      padding: 20px;
+      color: #fff;
+      transition: all 0.3s ease;
+      &:hover {
+        color: #e1b168;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+}
+.main {
+  background-color: #292e36;
+
+  &__menu {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+  }
+
+  &__left {
+    width: 50%;
+    max-width: 649px;
+  }
+
+  &__title {
+    margin-top: 186px;
+    font-family: "Cormorant Infant";
+    font-size: 100px;
+    color: #fff;
+  }
+
+  &__text {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #fff;
+  }
+
+  &__button {
+    a {
+      display: inline-block;
+      margin-top: 35px;
+      padding: 20px 56px;
+      border: 2px solid #e1b168;
+      transition: all 0.3s ease;
+      color: #e1b168;
+      &:hover {
+        color: #292e36;
+        background-color: #e1b168;
+        transition: all 0.3s ease;
+      }
+    }
+
+    &__right {
+      width: 50%;
+    }
+  }
+}
+
+.info {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  background-color: #fff;
+
+  &__all {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    display: flex;
+  }
+
+  &__text {
+    padding-left: 20px;
+    padding-top: 5px;
+    h2 {
+      font-family: "Cormorant Infant";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 39px;
+    }
+    p {
+      padding-top: 5px;
+    }
+  }
+}
+.story {
+  padding-top: 50px;
+  background-color: #fff8f5;
+  padding-bottom: 100px;
+
+  &__all {
+    display: flex;
+  }
+
+  &__left {
+    width: 55%;
+  }
+
+  &__photo {
+    img {
+      max-width: 743px;
+      width: 100%;
+    }
+  }
+
+  &__right {
+    width: 45%;
+    padding-left: 10px;
+  }
+
+  &__title {
+    font-family: "Cormorant Infant";
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #292e36;
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+  }
+  &__mid {
+    display: flex;
+  }
+}
+.story {
+  &__bottom {
+    padding-top: 15px;
+  }
+  &__name {
+    h3 {
+      padding-bottom: 30px;
+      line-height: 30px;
+      font-size: 20px;
+      color: #555555;
+      letter-spacing: 0.2px;
+    }
+  }
+}
