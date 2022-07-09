@@ -41,6 +41,7 @@ function watcher() {
   watch("src/img/**/*", series("img"));
   watch("src/fonts/**/*", series("fonts"));
   watch("src/js/*.js", series("js"));
+  watch("src/**.html", series("html"));
 }
 exports.js = js;
 exports.watcher = watcher;

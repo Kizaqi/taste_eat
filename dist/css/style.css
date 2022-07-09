@@ -95,9 +95,10 @@ header {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1430px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-top {
@@ -106,6 +107,9 @@ header {
   align-items: center;
   padding: 50px 0;
   border-bottom: 1px solid #5c6168;
+}
+.header-top__logo img {
+  width: 100%;
 }
 .header-top__phone {
   padding: 20px 57px;
@@ -178,6 +182,13 @@ header {
   transition: all 0.3s ease;
 }
 
+.header__burger {
+  display: none;
+}
+.header__list {
+  display: none;
+}
+
 .main {
   background-color: #292e36;
 }
@@ -216,8 +227,11 @@ header {
   background-color: #e1b168;
   transition: all 0.3s ease;
 }
-.main__button__right {
+.main__right {
   width: 50%;
+}
+.main__img img {
+  width: 100%;
 }
 
 .info {
@@ -274,7 +288,7 @@ header {
   letter-spacing: 0.2px;
   color: #292e36;
 }
-.story__text {
+.story__text p {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
@@ -282,6 +296,9 @@ header {
 }
 .story__mid {
   display: flex;
+}
+.story__year {
+  margin-right: 25px;
 }
 
 .story__bottom {
@@ -293,6 +310,1041 @@ header {
   font-size: 20px;
   color: #555555;
   letter-spacing: 0.2px;
+}
+
+.food {
+  padding-top: 140px;
+}
+.food__all {
+  display: flex;
+}
+.food__left {
+  width: 40%;
+  margin-right: 15px;
+}
+.food__left .subtitle {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.food__left .subtitle h4 {
+  display: inline-block;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  text-transform: uppercase;
+  padding: 4px 0 1px;
+  letter-spacing: 3px;
+}
+.food__title {
+  max-width: 375px;
+  width: 100%;
+  font-family: "Cormorant Infant";
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #292e36;
+}
+.food__text {
+  max-width: 486px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
+.food__text p {
+  padding-bottom: 30px;
+}
+.food__text img {
+  max-width: 398px;
+  width: 100%;
+}
+.food__button a {
+  padding: 20px 57px;
+  color: #e1b168;
+  font-size: 22px;
+  line-height: 33px;
+  border: 2px solid #e1b168;
+  transition: all 0.3s ease;
+}
+
+.food__right {
+  width: 60%;
+}
+.food__name {
+  font-family: "Cormorant Infant";
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+  padding-top: 20px;
+}
+.food__item {
+  display: flex;
+  padding-top: 40px;
+}
+.food__names {
+  flex: 1 1 auto;
+  padding-left: 20px;
+}
+.food__names h2 {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+}
+.food__names p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
+.food__price {
+  font-family: "Cormorant Infant";
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+}
+.food__price ul li {
+  padding-bottom: 20px;
+}
+.food__price ul li span:first-child {
+  float: left;
+  padding: 0 10px 0 0;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  padding-top: 12px;
+}
+.food__price ul li span:first-child + span {
+  float: right;
+  padding: 0 0 0 10px;
+}
+.food__price ul li:after {
+  content: "";
+  display: block;
+  overflow: hidden;
+  border-bottom: 2px dotted #555;
+  height: 14px;
+  padding-top: 30px;
+}
+
+.slider {
+  margin: 50px 0;
+  background-color: #292e36;
+}
+.slider__all {
+  padding: 50px;
+}
+.slider__title {
+  padding: 10px 0;
+}
+.slider__title h2 {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  color: #fff;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+}
+.slider__text {
+  padding-bottom: 20px;
+}
+.slider__text p {
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  line-height: 30px;
+}
+.slider__slick {
+  padding-top: 40px;
+}
+.slider__item {
+  max-width: 510px;
+  width: 100%;
+  background-color: #343942;
+  padding: 0px 30px;
+  margin-left: 20px;
+}
+.slider__top {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #797e89;
+  padding-bottom: 30px;
+}
+.slider__name {
+  padding-left: 20px;
+}
+.slider__name img {
+  padding-bottom: 30px;
+}
+.slider__name h3 {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.slider__name p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+}
+.slider__bottom {
+  padding-top: 20px;
+}
+.slider__bottom p {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+}
+
+.photo__bg img {
+  width: 100%;
+}
+
+.offers {
+  padding-top: 140px;
+  padding-bottom: 50px;
+}
+.offers__all .subtitle h4 {
+  display: inline-block;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 4px 0 1px;
+  letter-spacing: 3px;
+}
+.offers__title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #292e36;
+}
+.offers__text {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
+.offers__offer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+.offers__left {
+  padding-bottom: 20px;
+}
+.offers__left img {
+  width: 100%;
+}
+.offers__right img {
+  width: 100%;
+}
+
+.subtitle-white {
+  margin-bottom: 10px;
+  color: #fff;
+}
+.subtitle-white h4 {
+  display: inline-block;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 4px 0 1px;
+  letter-spacing: 3px;
+}
+
+.popular {
+  padding-bottom: 75px;
+}
+.popular .subtitle {
+  text-align: center;
+}
+.popular .subtitle h4 {
+  display: inline-block;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 4px 0 1px;
+  letter-spacing: 3px;
+}
+.popular__dishes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.popular__item {
+  width: 25%;
+  padding-top: 65px;
+  padding-right: 15px;
+}
+.popular__item:hover .popular__name h2 {
+  font-weight: 700;
+}
+.popular__photo img {
+  width: 100%;
+}
+.popular__name {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #DCDCDC;
+}
+.popular__name h2 {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292E36;
+  padding-top: 2px;
+}
+.popular__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  padding-top: 5px;
+}
+.popular__buttom {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.service {
+  padding: 140px 0;
+  background-color: #292E36;
+}
+.service__all {
+  display: flex;
+  align-items: center;
+}
+.service__left {
+  width: 30%;
+}
+.service__right {
+  width: 70%;
+}
+.service__info {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 15px;
+}
+.service__item {
+  text-align: center;
+  max-width: 235px;
+  width: 100%;
+  border: 20px solid #323841;
+}
+.service__photo {
+  padding: 35px;
+}
+.service__text {
+  margin-bottom: 10px;
+}
+.service__text p {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.blog {
+  padding: 140px 0;
+}
+.blog__all .subtitle h4 {
+  display: inline-block;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 4px 0 1px;
+  letter-spacing: 3px;
+}
+.blog__history {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blog__left {
+  width: 50%;
+  padding: 30px;
+}
+.blog__right {
+  width: 50%;
+  padding: 30px;
+}
+.blog__photo {
+  position: relative;
+  transition: all 0.3s ease;
+}
+.blog__photo img {
+  width: 100%;
+}
+.blog__photo a {
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  padding: 20px 56px;
+  border: 2px solid #e1b168;
+  transition: all 0.7s ease;
+  color: #e1b168;
+}
+.blog__photo:hover a {
+  z-index: 1;
+  color: #292e36;
+  background-color: #e1b168;
+  transition: all 0.7s ease;
+}
+.blog__photo:hover::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.7s ease;
+}
+.blog__content {
+  padding: 15px;
+  border: 1px solid #C4C4C4;
+}
+.blog__subtitle {
+  padding-top: 25px;
+}
+.blog__subtitle a {
+  margin-right: 30px;
+  display: inline-block;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 4px 0 1px;
+  letter-spacing: 3px;
+  color: #292E36;
+}
+.blog__title {
+  padding-top: 20px;
+}
+.blog__title h2 {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #292E36;
+}
+.blog__text {
+  padding-top: 20px;
+}
+.blog__text p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  padding-bottom: 40px;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.contact {
+  position: relative;
+}
+.contact img {
+  width: 100%;
+}
+.contact__all {
+  padding: 100px 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 920px;
+  width: 100%;
+  background: rgba(41, 46, 54, 0.95);
+}
+.contact__title {
+  display: inline-block;
+}
+.contact__subitle h2 {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.contact__reservation {
+  max-width: 520px;
+  width: 100%;
+  margin: 0 auto;
+}
+.contact__names {
+  display: flex;
+}
+.contact__names input {
+  background-color: #292E36;
+  padding: 20px;
+  border: 1px solid #858585;
+  margin-right: 10px;
+  width: 100%;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+.contact__names input::placeholder {
+  color: #fff;
+}
+.contact__details {
+  display: flex;
+  padding: 20px 0;
+  color: #fff;
+}
+.contact__details input {
+  background-color: #292E36;
+  padding: 20px;
+  border: 1px solid #858585;
+  margin-right: 10px;
+  width: 100%;
+  color: #fff;
+}
+.contact__details input::placeholder {
+  color: #fff;
+}
+.contact__details select {
+  background-color: #292E36;
+  padding: 20px;
+  border: 1px solid #858585;
+  margin-right: 10px;
+  width: 100%;
+  color: #fff;
+}
+.contact__button a {
+  display: inline-block;
+  color: #fff;
+  background-color: #292E36;
+  border: 1px solid #858585;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.contact__button:hover a {
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.footer {
+  padding: 100px 0 25px 0;
+  background: #292E36;
+}
+.footer__logo img {
+  width: 100%;
+}
+.footer__all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__hashtag {
+  max-width: 252px;
+  width: 100%;
+}
+.footer__hashtag p {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.footer__mid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.footer__contact p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.footer__contact a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #E1B168;
+}
+.footer__forms {
+  max-width: 664px;
+  width: 100%;
+  padding-top: 30px;
+}
+.footer__text p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.footer__form {
+  display: flex;
+  justify-content: center;
+  background: #292E36;
+  padding-top: 25px;
+}
+.footer__form input {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background: #292E36;
+  border: 1px solid #858585;
+}
+.footer__form input::placeholder {
+  color: #fff;
+}
+.footer__form button {
+  max-width: 209px;
+  width: 100%;
+  background: #292E36;
+  border: 1px solid #858585;
+  color: #fff;
+}
+.footer__form button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s ease;
+}
+.footer__working {
+  text-align: right;
+}
+.footer__working p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #E1B168;
+}
+.footer__working p span {
+  color: #FFFFFF;
+}
+.footer__bottom {
+  padding-top: 25px;
+  border-top: 1px solid #858585;
+}
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__copyright p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.footer__copyright p span {
+  color: #E1B168;
+}
+.footer__items {
+  display: flex;
+}
+.footer__items a {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #E1B168;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-top__phone {
+    display: none;
+  }
+  .header-top__reservation {
+    display: none;
+  }
+  .header-top__logo {
+    width: 100%;
+    max-width: 220px;
+  }
+
+  .header-bottom {
+    display: none;
+  }
+
+  .popular__item {
+    width: 50%;
+  }
+
+  .header__burger {
+    margin: 0;
+    right: 15px;
+    top: 100px;
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    display: block;
+    z-index: 100;
+    cursor: pointer;
+  }
+  .header__burger::after, .header__burger::before {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+  .header__burger::after {
+    bottom: 0;
+  }
+  .header__burger::before {
+    top: 0;
+  }
+  .header__burger span {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+  }
+  .header__burger.active {
+    width: 45px;
+    position: fixed;
+  }
+  .header__burger.active span {
+    display: none;
+  }
+  .header__burger.active::before {
+    transform: rotate(405deg);
+    margin-top: 8px;
+    transition: all 0.3s ease 0s;
+  }
+  .header__burger.active::after {
+    transform: rotate(-405deg);
+    margin-bottom: 9px;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header__menu {
+    display: block;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: auto;
+    background-color: #292E36;
+    padding: 100px 10px 20px 10px;
+    transition: all 0.3s ease 0s;
+  }
+  .header__menu.active {
+    top: 0;
+  }
+  .header__menu.active .header__list {
+    display: block;
+  }
+  .header__menu .header__list {
+    z-index: 99;
+  }
+  .header__menu .header__list li a {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+  }
+  .header__menu .header__bottom {
+    display: flex;
+    justify-content: center;
+  }
+  .header__menu .header__bottom a {
+    display: block;
+    font-size: 24px;
+    padding: 20px;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  .header__menu .header__bottom a:hover {
+    color: #e1b168;
+    transition: all 0.3s ease;
+  }
+
+  .main__menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main__left {
+    width: unset;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .main__title {
+    margin-top: 0;
+  }
+  .main__right {
+    width: unset;
+    padding-bottom: 20px;
+  }
+
+  .info__all {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info__item {
+    max-width: 360px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .story__all {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .story__left {
+    width: 85%;
+  }
+  .story__photo img {
+    max-width: unset;
+    width: 100%;
+  }
+  .story__right {
+    width: 85%;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .story__mid {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .story__name {
+    padding-top: 25px;
+  }
+
+  .food {
+    padding-top: 75px;
+  }
+  .food__all {
+    flex-wrap: wrap;
+  }
+  .food__left {
+    width: 100%;
+    margin-right: 0;
+  }
+  .food__left .subtitle {
+    text-align: center;
+  }
+  .food__title {
+    margin: 0 auto;
+  }
+  .food__text {
+    margin: 0 auto;
+  }
+  .food__text img {
+    max-width: unset;
+  }
+  .food__button {
+    text-align: center;
+  }
+  .food__right {
+    width: 100%;
+  }
+
+  .offers {
+    padding-top: 50px;
+  }
+
+  .service {
+    padding: 50px 0;
+  }
+  .service__all {
+    flex-wrap: wrap;
+  }
+  .service__left {
+    width: 100%;
+    text-align: center;
+  }
+  .service__right {
+    width: 100%;
+  }
+  .service__info {
+    flex-wrap: wrap;
+  }
+  .service__item {
+    margin: 15px;
+  }
+
+  .blog {
+    padding: 50px 0;
+  }
+  .blog__left {
+    width: 100%;
+    padding: 0 0 25px 0;
+  }
+  .blog__title {
+    text-align: center;
+  }
+  .blog__text {
+    text-align: center;
+  }
+  .blog__right {
+    width: 100%;
+    padding: 0 0 25px 0;
+  }
+
+  .footer__all {
+    justify-content: center;
+  }
+  .footer__hashtag {
+    display: none;
+  }
+  .footer__social {
+    display: none;
+  }
+  .footer__forms {
+    display: none;
+  }
+  .footer__items {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main__left {
+    padding-right: 0;
+  }
+  .main__title h1 {
+    font-size: 60px;
+  }
+  .main__text p {
+    font-size: 14px;
+  }
+  .main__button a {
+    padding: 10px 40px;
+  }
+
+  .food__item {
+    flex-direction: column;
+    text-align: center;
+  }
+  .food__item img {
+    width: 84px;
+    height: 84px;
+    margin: 0 auto;
+  }
+  .food__price ul li:after {
+    display: none;
+  }
+
+  .contact img {
+    height: 360px;
+  }
+  .contact__all {
+    padding: 25px 0;
+  }
+  .contact__reservation {
+    padding: 0 10px;
+  }
+  .contact__names {
+    display: block;
+  }
+  .contact__names input {
+    margin-right: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .contact__details {
+    display: block;
+  }
+  .contact__details input {
+    margin-right: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .contact__details select {
+    margin-right: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .contact__button {
+    margin-bottom: 40px;
+  }
+  .contact__button a {
+    padding: 10px;
+  }
+
+  .footer__mid {
+    padding-top: 20px;
+    justify-content: center;
+  }
+  .footer__contact {
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .footer__working {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .footer__working p {
+    text-align: center;
+  }
+  .footer__copyright p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .popular__buttom {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .popular__item {
+    width: 100%;
+  }
 }
 * {
   padding: 0;
