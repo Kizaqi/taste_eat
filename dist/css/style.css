@@ -938,6 +938,7 @@ header {
   padding: 20px;
   background: #292E36;
   border: 1px solid #858585;
+  color:#fff;
 }
 .footer__form input::placeholder {
   color: #fff;
