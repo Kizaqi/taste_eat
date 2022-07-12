@@ -603,7 +603,7 @@ header {
 .popular__item {
   width: 25%;
   padding-top: 65px;
-  padding-right: 15px;
+  padding-right: 35px;
 }
 .popular__item:hover .popular__name h2 {
   font-weight: 700;
